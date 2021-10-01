@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kalam&display=swap');
+
+:root {
+    --primary:orange;
+    --black: #000000;
+}
+
+body {
+    margin: 0;
+    font-family: 'Kalam', cursive;
+    color: var(--black);
+}
+
+nav {
+    background-color: var(--primary);
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+main {
+    margin: auto;
+    padding: 2.5rem;
+    max-width: 600px;
+}
+
+.img {
+    position: absolute;
+    max-width: 80px;
+    margin-left: 300px;
+}
+
+textarea {
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 100%;
+    min-height: 20vh;
+    display: block;
+    font-size: large;
+    font-family: inherit;
+}
+
+button {
+    background-color: var(--primary);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: inherit;
+    font-size: large;
+
+}
+
+#output {
+    box-sizing: border-box;
+    border: 1px solid black;
+    min-height: 15vh;
+    max-height: 25vh;
+    width: 100%;
+    overflow: scroll;
+}
+
+footer {
+    font-size: large;
+    position: fixed;
+    background-color: var(--primary);
+    bottom: 0;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+
+}
+
+footer p {
+    max-width: 600px;
+    margin: auto;
+}
