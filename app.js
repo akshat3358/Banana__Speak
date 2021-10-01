@@ -1,12 +1,6 @@
 
-//Taking user name as a input
+var btnTranslate = document.querySelector("btn-translate");
 
-var userName = prompt("HEY , What's Your name ? ");
-
-//processing the value given by user
-
-var welcomingUser = "This Scripts is working Perfectly!! " + userName;
-
-//output
-
-alert(welcomingUser);
+var addEventListener = document.addEventListener("click",function translate() {
+    console.log("Translate button clicked!!");
+}); 
